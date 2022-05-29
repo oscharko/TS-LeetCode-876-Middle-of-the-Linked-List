@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let head = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\nconst middleNode = function(head: number[]): number[] {\n  if (head.length % 2 === 0) {\n    return head.splice((head.length / 2), head.length)\n  } else {\n    return head.splice(((head.length - 1) / 2), head.length)\n  }\n};\n\nconsole.log(middleNode(head))"],
+  "mappings": "AAAA,IAAI,OAAO,CAAC,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG;AAEvC,MAAM,aAAa,SAAS,OAA0B;AACpD,MAAI,MAAK,SAAS,MAAM,GAAG;AACzB,WAAO,MAAK,OAAQ,MAAK,SAAS,GAAI,MAAK;AAAA,SACtC;AACL,WAAO,MAAK,OAAS,OAAK,SAAS,KAAK,GAAI,MAAK;AAAA;AAAA;AAIrD,QAAQ,IAAI,WAAW;",
+  "names": []
+}
